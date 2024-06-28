@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.why__turism {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.why__turism__container h2 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: bold;
+    color: #05203E;
+    line-height: 1.1;
+    max-width: 480px;
+}
+
+.why__turism__container h2 span {
+    color: #B73737;
+}
+
+.why__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.why__block {
+    position: relative;
+    padding: 32px;
+    border: 1px solid #D6DADE;
+    border-radius: 24px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.why__block div {
+    position: absolute;
+    right: 32px;
+    bottom: 24px;
+}
+
+.why__block h4 {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: bold;
+    color: #05203E;
+    line-height: 1.1;
+    max-width: 280px;
+}
+
+.why__block p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    color: #05203E;
+    line-height: 1.3;
+    max-width: 300px;
+    margin-bottom: 70px;
+}
+
+.holidays {
+    padding: 70px 0;
+    background: rgba(76, 97, 216, 0.15);
+}
+
+.holidays h2 {
+    color: #05203E;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin-bottom: 140px;
+}
+
+.holidays__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.holiday__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.holiday__block h3 {
+    color: #05203E;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Montserrat;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.holiday__block a {
+    padding: 16px 20px;
+    background: #B73737;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat;
+    max-width: 170px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.holiday__block div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tours {
+    background: #F9F5E7;
+    padding: 70px 0;
+}
+
+.tours h2 {
+    color: #05203E;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin-bottom: 50px;
+}
+
+.tours__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tour__block {
+    margin-bottom: 20px;
+    position: relative;
+    width: 610px;
+    height: 380px;
+}
+
+.tour__block h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Montserrat;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    z-index: 5;
+}
+
+.tour__block div {
+    width: 100%;
+    height: 100%;
+}
+
+.tour__block div img {
+    position: absolute;
+}
+
+.tour__block a {
+    position: absolute;
+    padding: 16px 29px;
+    background: #B73737;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat;
+    border-radius: 40px;
+    z-index: 5;
+    right: 38px;
+    bottom: 21px;
+}
+
+.tour__block__last {
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    #about-us {
+        font-size: 32px;
+        text-align: center;
+    }
+    .intro img {
+        display: none;
+    }
+    .about img {
+        display: none;
+    }
+    .about__container {
+        margin: 0 auto;
+    }
+    #whom {
+        font-size: 32px;
+        text-align: center;
+    }
+    .whom {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .whom__right {
+        margin-top: 10px;
+        max-width: 80%;
+        font-size: 24px;
+        text-align: center;
+    }
+    .steps__container {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    .steps h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .steps__text {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    #reviews {
+        font-size: 32px;
+        text-align: center;
+    }
+    .but__slider button {
+        padding: 12px;
+    }
+    .contacts {
+        flex-wrap: wrap;
+    }
+    #contacts {
+        font-size: 32px;
+        text-align: center;
+    }
+    .map iframe {
+        max-width: 100%;
+        height: auto;
+    }
+    .footer__top {
+        flex-wrap: wrap;
+    }
+    .footer__logo img {
+        width: 100%;
+        height: auto;
+    }
+    .why__but__slider {
+        margin: 0;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .why__but__slider button {
+        padding: 12px;
+    }
+
+    .why {
+        flex-wrap: wrap;
+    }
+
+    .why__turism {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .why__blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #holidays {
+        font-size: 32px;
+    }
+
+    .holiday__block h3 {
+        font-size: 24px;
+    }
+
+    .holidays__container  {
+        justify-content: center;
+    }
+
+    .holiday__block img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tour__block img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tours__container {
+        justify-content: center;
+    }
+
+    #why__turism {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    #tours {
+        font-size: 32px;
+    }
+
+    .footer__top h3, .footer__top a {
+        margin: 10px 0;
+        display: block;
+    }
+}

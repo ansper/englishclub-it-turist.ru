@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Englishclub.ru</title>
+</head>
+<body>
+    <h1 style="text-align: center; max-width: 820px; margin: 50px auto;">Добро пожаловать на “Английский клуб”! Выберите раздел, который хотите посетить</h1>
+    <div class="blocks__wrapper" id="firstPage">
+        <div class="block" onclick="redirectToPage('pages/english.php')">
+            <a href=""><img src="assets/img/english.png" alt="english"></a>
+            <div class="block__text">
+                <h2>Английский</h2>
+                <a href="pages/english.php">Перейти</a>
+            </div>
+        </div>
+        <div class="block" onclick="redirectToPage('pages/it.php')">
+            <img src="assets/img/it.png" alt="it">
+            <div class="block__text">
+                <h2>IT</h2>
+                <a href="pages/it.php">Перейти</a>
+            </div>
+        </div>
+        <div class="block" onclick="redirectToPage('pages/turist.php')">
+            <a href=""><img src="assets/img/turism.png" alt="turism"></a>
+            <div class="block__text">
+                <h2>Туризм</h2>
+                <a href="pages/turist.php">Перейти</a>
+            </div>
+        </div>
+    </div>
+    <div class="bblocks__wrapper">
+        <div class="block" onclick="redirectToPage('pages/english.php')">
+            <a href=""><img src="assets/img/bsection_english.png" alt="english"></a>
+            <div class="block__text">
+                <h2>Английский</h2>
+                <a href="pages/english.php">Перейти</a>
+            </div>
+        </div>
+        <div class="block" onclick="redirectToPage('pages/it.php')">
+            <img src="assets/img/bsection_it.png" alt="it">
+            <div class="block__text">
+                <h2>IT</h2>
+                <a href="pages/it.php">Перейти</a>
+            </div>
+        </div>
+        <div class="block" onclick="redirectToPage('pages/turist.php')">
+            <a href=""><img src="assets/img/bsection_turism.png" alt="turism"></a>
+            <div class="block__text">
+                <h2>Туризм</h2>
+                <a href="pages/turist.php">Перейти</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    function redirectToPage(url) {
+        window.location.href = url;
+    }
+</script>

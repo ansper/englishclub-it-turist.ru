@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.whom__center__container {
+    display: none;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.whom {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.whom h2 {
+    color: #05203E;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: Montserrat;
+    line-height: 1.1;
+}
+
+.whom h2 span {
+    color: #B73737;
+}
+
+.filter {
+    margin-top: 30px;
+}
+
+.filter__button {
+    color: #05203E;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat;
+    border: none;
+    background: none;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+
+.filter__button__active {
+    background: #B73737;
+    color: white;
+    border-radius: 40px;
+}
+
+.whom__center {
+    margin-top: 44px;
+    padding: 36px 40px;
+    border: 1px solid rgb(214, 218, 222);
+    border-radius: 40px;
+}
+
+.whom__center h3 {
+    color: #05203E;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Montserrat;
+    line-height: 1.2;
+    max-width: 380px;
+    margin-bottom: 24px;
+}
+
+.whom__center span {
+    color: rgba(5, 32, 62, 0.7);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+.whom__right {
+    margin-top: 260px;
+    color: #05203E;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Montserrat;
+    max-width: 350px;
+}
+
+.whom__active {
+    display: block;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content {
+    background-color: #FFFFFF;
+    max-width: 40rem;
+    max-height: 45rem;
+    margin: 15% auto;
+    padding: 3.75rem;
+    border: 1px solid #585858;
+    width: 80%;
+}
+
+.modal-content h3 {
+    font-size: 2rem;
+    font-family: Montserrat;
+    margin-bottom: 1.875rem;
+}
+  
+#feedbackForm>label {
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    line-height: 1.5;
+}
+
+#feedbackForm>input {
+    padding: 10px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    border: 3px solid #9E1430;
+    border-radius: .5rem;
+}
+
+#name {
+    margin-bottom: 1rem;
+}
+
+#review {
+    padding: 10px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    border: 3px solid #9E1430;
+    border-radius: .5rem;
+}
+
+#feedbackForm input[type='submit'] {
+    margin: 3rem 0;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    border: 3px solid #9E1430;
+    border-radius: .5rem;
+    background: none;
+}
+
+.submit {
+    display: flex;
+    justify-content: right;
+}
+
+.close {
+    color: #585858;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #about-us {
+        font-size: 32px;
+        text-align: center;
+    }
+    .intro img {
+        display: none;
+    }
+    .about img {
+        display: none;
+    }
+    .about__container {
+        margin: 0 auto;
+    }
+    #whom {
+        font-size: 32px;
+        text-align: center;
+    }
+    .whom {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .whom__right {
+        margin-top: 10px;
+        max-width: 80%;
+        font-size: 24px;
+        text-align: center;
+    }
+    .steps__container {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    .steps h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .footer__top h3, .footer__top a {
+        margin: 10px 0;
+        display: block;
+    }
+    .steps__text {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    #reviews {
+        font-size: 32px;
+        text-align: center;
+    }
+    .but__slider button {
+        padding: 12px;
+    }
+    .contacts {
+        flex-wrap: wrap;
+    }
+    #contacts {
+        font-size: 32px;
+        text-align: center;
+    }
+    .map iframe {
+        max-width: 100%;
+        height: auto;
+    }
+    .footer__top {
+        flex-wrap: wrap;
+    }
+    .footer__logo img {
+        width: 100%;
+        height: auto;
+    }
+}
